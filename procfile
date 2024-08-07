@@ -1,2 +1,2 @@
-worker: python servepet.py
+web: gunicorn servepet:app
 
